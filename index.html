@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Raj | Data Intelligence & Analytics Core</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body class="bg-bg text-text-primary">
+
+    <div id="loading-screen" class="loading-overlay">
+        <div class="load-top-left font-body">MAYANK RAJ // DATA PORTFOLIO</div>
+        
+        <div class="load-center-words">
+            <span id="loader-word" class="font-display">ANALYZE</span>
+        </div>
+        
+        <div class="load-bottom-right">
+            <span id="loader-counter" class="font-display">000</span>
+        </div>
+        
+        <div class="load-progress-bar">
+            <div id="load-progress-inner" class="accent-gradient"></div>
+        </div>
+    </div>
+
+    <div class="interface-frame invisible" id="main-interface">
+        
+        <nav class="fixed-navbar">
+            <div class="navbar-pill" id="navbarPill">
+                <div class="nav-logo accent-gradient">
+                    <div class="logo-inner bg-bg">
+                        <span class="font-display">MR</span>
+                    </div>
+                </div>
+                
+                <div class="nav-divider hide-mobile"></div>
+                
+                <div class="nav-links font-body">
+                    <a href="#home" class="nav-item active">Home</a>
+                    <a href="#projects" class="nav-item">Work</a>
+                    <a href="#credentials" class="nav-item">Experience</a>
+                    <a href="#playground" class="nav-item">Playground</a>
+                </div>
+                
+                <div class="nav-divider hide-mobile"></div>
+                
+                <a href="mailto:yadavmayank1214@gmail.com" class="nav-say-hi font-body hide-mobile">
+                    <span class="btn-gradient-bg accent-gradient"></span>
+                    <span class="btn-inner bg-surface">Say hi ↗</span>
+                </a>
+            </div>
+        </nav>
+
+        <main class="scrollable-content" id="scrollContainer">
+
+            <section id="home" class="hero-section">
+                <div class="video-container">
+                    <video id="hero-video" autoplay muted loop playsinline class="bg-video"></video>
+                    <div class="dark-overlay"></div>
+                    <div class="bottom-fade"></div>
+                </div>
+
+                <div class="cyber-grid-matrix"></div>
+                <div class="laser-scanner-line"></div>
+                <div class="hud-frame-bracket top-left-bracket"></div>
+                <div class="hud-frame-bracket top-right-bracket"></div>
+                <div class="hud-frame-bracket bottom-left-bracket"></div>
+                <div class="hud-frame-bracket bottom-right-bracket"></div>
+
+                <div class="hero-content-shell">
+                    <div class="eyebrow blur-in font-body">COLLECTION '26 // BCA SEMESTER IV</div>
+                    
+                    <h1 class="main-heading font-display name-reveal">
+                        Mayank Raj
+                    </h1>
+
+                    <div class="role-line font-body">
+                        Advancing towards becoming a <span id="cycling-role" class="font-display text-text-primary animate-role-fade-in">Data Analyst</span> at NSU Jamshedpur.
+                    </div>
+
+                    <p class="subtext text-muted blur-in font-body">
+                        Transforming unorganized structures into predictive pipelines using Power BI, SQL, Python, and strategic Prompt Engineering arrays.
+                    </p>
+
+                    <div class="cta-button-group blur-in font-body">
+                        <a href="#projects" class="btn-pill solid-btn">See Works</a>
+                        <a href="mailto:yadavmayank1214@gmail.com" class="btn-pill outline-btn">Reach out...</a>
+                    </div>
+                </div>
+
+                <div class="scroll-indicator">
+                    <span class="font-body text-muted">SCROLL</span>
+                    <div class="scroll-line">
+                        <div class="scroll-highlight animate-scroll-down"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section-block">
+                <div class="section-container">
+                    <div class="section-header reveal-element">
+                        <div>
+                            <div class="eyebrow-container font-body">
+                                <div class="horizontal-stroke bg-stroke"></div>
+                                <span>LOGIC ARRAYS</span>
+                            </div>
+                            <h2 class="section-heading font-body">
+                                Featured <span class="font-display">projects</span>
+                            </h2>
+                            <p class="section-subtext text-muted font-body">
+                                Applied BCA projects highlighting analytical dashboards, structured data pipelines, and responsive frontend architectures.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bento-grid">
+                        <div class="bento-card col-span-7 group reveal-element">
+                            <div class="halftone-overlay"></div>
+                            <div class="card-gradient-shield"></div>
+                            <div class="card-static-content font-body">
+                                <span class="tech-tag">Excel + Power BI</span>
+                                <h3 class="card-title font-body"><a href="https://github.com/yadavmayank1214-bit/Amazon-Sales-Performance-Dashboard---Power-BI" target="_blank" rel="noopener" class="text-text-primary hover:text-[#89AACC] transition-colors relative z-20">Amazon Sales Performance Dashboard</a></h3>
+                                <p class="card-desc text-muted">Commercial sales intelligence dashboard built using Excel sheets and Power BI. Focuses on processing volume transaction records, evaluating profitability nodes, and visualizing key commercial performance matrices.</p>
+                            </div>
+                            <div class="card-hover-overlay backdrop-blur-lg">
+                                <a href="https://github.com/yadavmayank1214-bit/Amazon-Sales-Performance-Dashboard---Power-BI" target="_blank" rel="noopener" class="hover-label-pill font-body no-underline text-inherit"><span class="accent-gradient-text">View —</span> <span class="font-display">Sales Matrix</span></a>
+                            </div>
+                        </div>
+
+                        <div class="bento-card col-span-5 group reveal-element">
+                            <div class="halftone-overlay"></div>
+                            <div class="card-gradient-shield"></div>
+                            <div class="card-static-content font-body">
+                                <span class="tech-tag">Excel + Power BI</span>
+                                <h3 class="card-title font-body"><a href="https://github.com/yadavmayank1214-bit/Tata-Online-Retail-Sales-Analysis-Dashboard---Power-BI" target="_blank" rel="noopener" class="text-text-primary hover:text-[#89AACC] transition-colors relative z-20">Tata Online Retail Sales Analysis</a></h3>
+                                <p class="card-desc text-muted">Comprehensive online retail analytics pipeline visualizing transactional logs and customer purchasing behaviors through structured Power BI reporting modules.</p>
+                            </div>
+                            <div class="card-hover-overlay backdrop-blur-lg">
+                                <a href="https://github.com/yadavmayank1214-bit/Tata-Online-Retail-Sales-Analysis-Dashboard---Power-BI" target="_blank" rel="noopener" class="hover-label-pill font-body no-underline text-inherit"><span class="accent-gradient-text">View —</span> <span class="font-display">Retail Intel</span></a>
+                            </div>
+                        </div>
+
+                        <div class="bento-card col-span-5 group reveal-element">
+                            <div class="halftone-overlay"></div>
+                            <div class="card-gradient-shield"></div>
+                            <div class="card-static-content font-body">
+                                <span class="tech-tag">Excel + Power BI</span>
+                                <h3 class="card-title font-body"><a href="https://github.com/yadavmayank1214-bit/Virat-Kohli-Carrer-Analysis" target="_blank" rel="noopener" class="text-text-primary hover:text-[#89AACC] transition-colors relative z-20">Virat Kohli Career Analysis</a></h3>
+                                <p class="card-desc text-muted">Sports data analysis framework processing career match records and performance statistics via Excel and interactive Power BI visual matrices.</p>
+                            </div>
+                            <div class="card-hover-overlay backdrop-blur-lg">
+                                <a href="https://github.com/yadavmayank1214-bit/Virat-Kohli-Carrer-Analysis" target="_blank" rel="noopener" class="hover-label-pill font-body no-underline text-inherit"><span class="accent-gradient-text">View —</span> <span class="font-display">Career Intel</span></a>
+                            </div>
+                        </div>
+
+                        <div class="bento-card col-span-7 group reveal-element">
+                            <div class="halftone-overlay"></div>
+                            <div class="card-gradient-shield"></div>
+                            <div class="card-static-content font-body">
+                                <span class="tech-tag">Python + Pandas</span>
+                                <h3 class="card-title font-body"><a href="https://github.com/yadavmayank1214-bit/e-commerce-order-managment" target="_blank" rel="noopener" class="text-text-primary hover:text-[#89AACC] transition-colors relative z-20">E-Commerce Order Management Engine</a></h3>
+                                <p class="card-desc text-muted">Backend utility built using basic Python and the Pandas library to handle order processing, data sorting, and record tracking operations programmatically.</p>
+                            </div>
+                            <div class="card-hover-overlay backdrop-blur-lg">
+                                <a href="https://github.com/yadavmayank1214-bit/e-commerce-order-managment" target="_blank" rel="noopener" class="hover-label-pill font-body no-underline text-inherit"><span class="accent-gradient-text">View —</span> <span class="font-display">Python Core</span></a>
+                            </div>
+                        </div>
+
+                        <div class="bento-card col-span-7 group reveal-element">
+                            <div class="halftone-overlay"></div>
+                            <div class="card-gradient-shield"></div>
+                            <div class="card-static-content font-body">
+                                <span class="tech-tag">HTML + CSS + JS</span>
+                                <h3 class="card-title font-body"><a href="https://yadavmayank1214-bit.github.io/Bhomi-University-Portal/login.html" target="_blank" rel="noopener" class="text-text-primary hover:text-[#89AACC] transition-colors relative z-20">Bhomi University Portal</a></h3>
+                                <p class="card-desc text-muted">Interactive web interface prototype for a university portal featuring dynamic login and authentication elements created with clean HTML, CSS, and JavaScript.</p>
+                            </div>
+                            <div class="card-hover-overlay backdrop-blur-lg">
+                                <a href="https://yadavmayank1214-bit.github.io/Bhomi-University-Portal/login.html" target="_blank" rel="noopener" class="hover-label-pill font-body no-underline text-inherit"><span class="accent-gradient-text">View —</span> <span class="font-display">Live Portal</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="credentials" class="section-block">
+                <div class="section-container">
+                    <div class="section-header reveal-element">
+                        <div>
+                            <div class="eyebrow-container font-body">
+                                <div class="horizontal-stroke bg-stroke"></div>
+                                <span>EXPERIENCE PIPELINES</span>
+                            </div>
+                            <h2 class="section-heading font-body">
+                                Internships & <span class="font-display">Credentials</span>
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="journal-list">
+                        <div class="journal-pill-row bg-surface/30 border border-stroke reveal-element">
+                            <div class="journal-meta-left">
+                                <span class="journal-index font-display text-muted">01</span>
+                                <div class="status-indicator-ring accent-gradient"></div>
+                                <h3 class="journal-title font-body">Data Analytics Internship — Auto Cluster Adityapur</h3>
+                            </div>
+                            <div class="journal-meta-right font-body hide-mobile">
+                                <span>PYTHON STACK</span>
+                                <span>// CORE PIPELINE</span>
+                            </div>
+                        </div>
+
+                        <div class="journal-pill-row bg-surface/30 border border-stroke reveal-element">
+                            <div class="journal-meta-left">
+                                <span class="journal-index font-display text-muted">02</span>
+                                <div class="status-indicator-ring accent-gradient"></div>
+                                <h3 class="journal-title font-body">Data Visualization Virtual Internship — Tata Company</h3>
+                            </div>
+                            <div class="journal-meta-right font-body hide-mobile">
+                                <span>METRIC SYSTEMS</span>
+                                <span>// VIRTUAL INSIGHTS</span>
+                            </div>
+                        </div>
+
+                        <div class="journal-pill-row bg-surface/30 border border-stroke reveal-element">
+                            <div class="journal-meta-left">
+                                <span class="journal-index font-display text-muted">03</span>
+                                <div class="status-indicator-ring configuration-ring"></div>
+                                <h3 class="journal-title font-body">Academic Matrix Licensing — BCA + ADCA + Prompt Engineering</h3>
+                            </div>
+                            <div class="journal-meta-right font-body hide-mobile">
+                                <span>VERIFIED CORES</span>
+                                <span>// CERTIFICATIONS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="playground" class="parallax-gallery-root">
+                <div class="pinned-content-frame" id="pinnedContent">
+                    <div class="eyebrow-container justify-center font-body">
+                        <span class="text-xs uppercase tracking-[0.3em] text-muted">SYSTEM IDENTIFIER</span>
+                    </div>
+                    <h2 class="gallery-pinned-title font-body">
+                        Identity & <span class="font-display">Hardware Architecture</span>
+                    </h2>
+                    <p class="gallery-pinned-subtext font-body text-muted">
+                        Cross-checking technical systems logic with foundational design processing configurations.
+                    </p>
+                </div>
+
+                <div class="parallax-columns-shell">
+                    <div class="parallax-grid-container">
+                        <div class="parallax-column" id="col-left">
+                            <div class="parallax-card system-profile-container">
+                                <img src="mmm.jpeg" alt="Mayank Raj Profile Identity Matrix" class="card-bg-img identity-matrix-photo">
+                                <div class="telemetry-readout font-body">
+                                    <span>SYS_LOC: NSU_JAMSHEDPUR</span>
+                                    <span>RECORDAUTO_ID_042</span>
+                                </div>
+                            </div>
+                            <div class="skill-matrix-pouch bg-surface border border-stroke font-body">
+                                <h4 class="font-display">Core Skills Matrix</h4>
+                                <div class="skills-flex-pool">
+                                    <span class="skill-micro-pill">HTML5</span><span class="skill-micro-pill">CSS3</span>
+                                    <span class="skill-micro-pill">Excel Analytics</span><span class="skill-micro-pill">Power BI</span>
+                                    <span class="skill-micro-pill">SQL Core</span><span class="skill-micro-pill">Python Engine</span>
+                                    <span class="skill-micro-pill">Prompt Engineering</span><span class="skill-micro-pill">C Programming</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="parallax-column" id="col-right">
+                            <div class="skill-matrix-pouch bg-surface border border-stroke font-body">
+                                <h4 class="font-display">Technical System Knowledge</h4>
+                                <ul class="knowledge-list-structure text-muted">
+                                    <li>// Functional Java Paradigms</li>
+                                    <li>// Data Pipelines and Analytics Foundations</li>
+                                    <li>// Interface Architecture (HTML/CSS)</li>
+                                    <li>// Strategic LLM Prompt Engineering</li>
+                                    <li>// Office Systems Orchestration (Word, PPT, Excel)</li>
+                                </ul>
+                            </div>
+                            <div class="parallax-card aspect-square">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="Data interface abstract" class="card-bg-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block border-t border-stroke bg-bg relative z-30">
+                <div class="section-container">
+                    <div class="stats-grid font-body">
+                        <div class="stat-node reveal-element">
+                            <span class="stat-number font-display">05+</span>
+                            <span class="stat-label text-muted">Core Analytics Dashboards & Apps</span>
+                        </div>
+                        <div class="stat-node border-x border-stroke reveal-element">
+                            <span class="stat-number font-display">02 //</span>
+                            <span class="stat-label text-muted">Enterprise Internships Verified</span>
+                        </div>
+                        <div class="stat-node reveal-element">
+                            <span class="stat-number font-display">100%</span>
+                            <span class="stat-label text-muted">Algorithmic Syntax Fidelity</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="contact-footer-root">
+                <div class="video-container">
+                    <video id="footer-video" autoplay muted loop playsinline class="bg-video scale-y-inverted"></video>
+                    <div class="dark-overlay overlay-heavy"></div>
+                </div>
+
+                <div class="marquee-strip-shell border-y border-stroke bg-bg/50 backdrop-blur-sm">
+                    <div class="marquee-track" id="marqueeTrack">
+                        <div class="marquee-content font-display">
+                            BUILDING THE FUTURE . DATA ANALYTICS . BUILDING THE FUTURE . DATA ANALYTICS . BUILDING THE FUTURE . DATA ANALYTICS .
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="footer-content-shell text-center" style="padding: 4rem 1rem;">
+                    <h2 class="footer-heading font-body" style="font-size: clamp(2rem, 5vw, 4rem); margin-bottom: 1.5rem;">
+                        Let's parse new <span class="font-display">matrices</span>
+                    </h2>
+                    <a href="mailto:yadavmayank1214@gmail.com" class="footer-email-btn font-body">
+                        <span class="btn-gradient-bg accent-gradient"></span>
+                        <span class="btn-inner bg-surface">yadavmayank1214@gmail.com ↗</span>
+                    </a>
+                </div>
+
+                <div class="footer-control-bar max-w-[1200px] mx-auto flex justify-between items-center text-sm text-muted font-body">
+                    <div class="social-links-shell">
+                        <a href="https://github.com/yadavmayank1214-bit" target="_blank" rel="noopener" class="social-link">GitHub</a>
+                        <a href="mailto:yadavmayank1214@gmail.com" class="social-link">Email</a>
+                    </div>
+
+                    <div class="system-status-pill flex items-center">
+                        <span class="pulse-green-dot"></span>
+                        <span class="tracking-widest ml-2">READY FOR PIPELINE INGESTION</span>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
